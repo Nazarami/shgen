@@ -15,6 +15,15 @@ command -v "$interpreter" >/dev/null || {
 [ "$interpreter" = "sh" ] && {
     fileExtension=".sh"
 }
+[ "$interpreter" = "dash" ] && {
+    fileExtension=".sh"
+}
+[ "$interpreter" = "bash" ] && {
+    fileExtension=".sh"
+}
+[ "$interpreter" = "zsh" ] && {
+    fileExtension=".sh"
+}
 [ "$interpreter" = "python" ] && {
     fileExtension=".py"
 }
